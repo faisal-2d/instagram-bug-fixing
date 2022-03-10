@@ -262,3 +262,10 @@ img {
 #question-answer{
   margin: 120px;  
 }
+
+.question{
+  padding: 10px 30px;
+  border-radius: 10px;
+  color: rgb(57, 148, 252);
+  background-color:hsla(204, 100%, 80%, 0.418);
+}
