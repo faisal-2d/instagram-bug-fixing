@@ -81,9 +81,9 @@
         <section id="question-answer">
             <div>
                 <h4 class="question">How does javascript work?</h4>
-                <p>Javascript is a single-threaded script language. So it has single call stack and it can do one thing at a time.  </p>
+                <p>Javascript is a <b>single-threaded</b> script language. So it has single call stack and it can do <b>one thing at a time</b>.  </p>
 
-            <p>Computers don't understand the source code directly, browsers do. And to do that browsers need an engine. Every browser has its own javascript engine, for example: SpiderMonkey engine for Firefox and Chakra engine for Internet Explorer, but the most popular engine is Google's V8 Engine. The V8 engine is used inside Chrome and Node.js.</p>
+            <p>Computers don't understand the source code directly, browsers do. And to do that browsers need an engine. Every browser has its own javascript engine, for example: SpiderMonkey engine for Firefox and Chakra engine for Internet Explorer, but the most popular engine is Google's <b>V8 Engine</b>. The V8 engine is used inside Chrome and Node.js.</p>
             <p>These engines responsible for passing the code through -</p>
                 <ul>
                     <li>a parser to check if the syntax is correct or not </li>
@@ -93,15 +93,15 @@
                 </ul>
             </div>
             <div>
-                <h4 class="question">What is the differece between Local Storage and Session Storage?</h4>
-                <p>Locan storage and session storage work almost similarly, they store data across browser sessions but they have differece. For example:</p>
-                <p><strong>Expiration Time:</strong> local storage data has no expiration time, session storage data gets cleared when the page session ends (the page is closed)</p>
+                <h4 class="question">What is the differece between localStorage and sessionStorage?</h4>
+                <p>localStorage and sessionStorage work almost similarly, they store data across browser sessions but they have differece. For example:</p>
+                <p><strong>Expiration Time:</strong> localStorage data has no expiration time, sessionStorage data gets cleared when the page session ends (the page is closed)</p>
                 <p><strong>Same URL data:</strong> Opening multiple tabs/windows with the same URL, creates a new sessionStorage for each tab/window. But LocalStorage remains the same for each tab/window.</p>
                 <p><strong>Closing a tab:</strong> Closing a tab/window ends the session and clears objects in sessionStorage But the objects are saved in localStorage in the browser. </p>
-                <p><strong>Syntax:</strong> Local Storage: <code>myStorage = window.localStorage;</code> <br>
-                    Session Storage: <code>myStorage = window.sessionStorage;</code> </p>
-                <p><strong>Uses:</strong> Local Storage is usually used to store in Shopping cart, Bookmark, Web Theme etc. <br>
-                    Session Storage is usually used to save automatically the contents of a text field, and if the browser is refreshed, no writing/input is lost. </p>
+                <p><strong>Syntax:</strong> localStorage: <code>myStorage = window.localStorage;</code> <br>
+                    sessionStorage: <code>myStorage = window.sessionStorage;</code> </p>
+                <p><strong>Uses:</strong> localStorage is usually used to store in Shopping cart, Bookmark, Web Theme etc. <br>
+                    sessionStorage is usually used to save automatically the contents of a text field, and if the browser is refreshed, no writing/input is lost. </p>
             </div>
         </section>
         <footer></footer>
